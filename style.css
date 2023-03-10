@@ -1,27 +1,40 @@
 body {
-    background-color: #e0fa5c;
-    font-family: 'Source serif pro';
+    background-color: rgb(234, 234, 234);
+    font-family: 'Source sans pro';
     color: black;
+    cursor: circle;
+   /* background-size: 200px 200px;
+    background-image:
+      linear-gradient(to right, white .7px, transparent .7px),
+      linear-gradient(to bottom, white .7px, transparent .7px); */
+      font-size: 1.2em;
+      text-align: left;
+      margin-left:50px;
+      margin-right:50px;
   }
+
   
   h1 {
-    font-size: 1.5em;
-    text-align: left;
-    margin-top: 300px;
-    margin-left: 150px;
+    font-family: 'FT88';
+    font-size: 2em;
+    margin-top: 50px;
   }
   
   p {
-    font-size: 1.5em;
-    text-align: left;
-    margin-top: 20px;
-    margin-left:150px;
+    max-width: 800px;
+  }
+
+  .subt{    
+    color: rgb(84, 84, 84);
     font-style: italic;
   }
 
-  mail{
-    font-size: 1.5em;
-    text-align: left;
-    margin-top: 20px;
-    margin-left:150px;
+  a {
+    color: #f9383f;
+    margin-top: 50px;
+
+  }
+
+  .red {
+    color:#f9383f;
   }
