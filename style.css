@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'FT88-Bold';
+  src: url('https://github.com/elena-aversa/elenic/blob/main/FT88-Bold.otf') format('opentype');
+}
+
 body {
     background-color: rgb(234, 234, 234);
     font-family: 'Source sans pro';
@@ -14,7 +19,7 @@ body {
   }
 
   h1 {
-    font-family: 'FT88';
+    font-family: 'FT88-Bold';
     font-size: 2em;
     margin-top: 50px;
   }
