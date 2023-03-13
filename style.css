@@ -1,7 +1,7 @@
-@font-face {
+/*@font-face {
   font-family: 'FT88';
   src: url('https://github.com/elena-aversa/elenic/blob/f0489e65ed47163591b5fa5417133816a13032fa/FT88.ttf') format('truetype');
-}
+}*/
 
 body {
     background-color: rgb(234, 234, 234);
@@ -19,7 +19,7 @@ body {
   }
 
   h1 {
-    font-family: 'FT88';
+    font-family: 'Labrada';
     font-size: 2em;
     margin-top: 50px;
   }
