@@ -15,7 +15,7 @@ body {
 
   h1 {
     font-family: 'FT88', serif;
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 50px;
   }
   
@@ -24,16 +24,16 @@ body {
   }
 
   .subt{    
-    color: rgb(84, 84, 84);
     font-style: italic;
   }
 
   a {
     color: rgb(84, 84, 84);
-    /* color: #f9383f; */
     margin-top: 50px;
   }
 
-  .red {
-    color:#f9383f;
+  .grey {
+   color: rgb(84, 84, 84);
   }
+
+    /* color: #f9383f; */
