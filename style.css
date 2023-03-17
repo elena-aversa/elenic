@@ -10,7 +10,7 @@
 
 body {
     background-color: rgb(234, 234, 234);
-    font-family: 'Source sans pro';
+    font-family: 'Sligoil-Micro';
     color: black;
       font-size: 1.2em;
       text-align: left;
@@ -19,7 +19,7 @@ body {
   }
 
   h1 {
-    font-family: 'Sligoil-Micro', serif;
+    font-family: 'Sligoil-Micro';
     font-size: 4em;
     margin-top: 70px;
   }
