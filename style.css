@@ -29,7 +29,8 @@ body {
   }
 
   a {
-    color: #f9383f;
+    color: rgb(84, 84, 84);
+    /* color: #f9383f; */
     margin-top: 50px;
   }
 
