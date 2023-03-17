@@ -1,17 +1,12 @@
-/*@font-face {
-  font-family: 'Labrada', serif;
-  src: url('https://github.com/elena-aversa/elenic/blob/f0489e65ed47163591b5fa5417133816a13032fa/FT88.ttf') format('truetype');
-}*/
+@font-face {
+  font-family: 'FT88';
+  src: url('FT88.ttf') format('truetype');
+}
 
 body {
     background-color: rgb(234, 234, 234);
     font-family: 'Source sans pro';
     color: black;
-    cursor: circle;
-   /* background-size: 200px 200px;
-    background-image:
-      linear-gradient(to right, white .7px, transparent .7px),
-      linear-gradient(to bottom, white .7px, transparent .7px); */
       font-size: 1.2em;
       text-align: left;
       margin-left:50px;
@@ -19,7 +14,7 @@ body {
   }
 
   h1 {
-    font-family: 'Labrada', serif;
+    font-family: 'FT88', serif;
     font-size: 2em;
     margin-top: 50px;
   }
