@@ -1,10 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-font-family: 'Inter', sans-serif;
-
 @font-face {
 font-family: 'Inter', sans-serif;
+}
+
+@font-face {
+font-family: 'DM Serif Display', serif;
 }
 
 @font-face {
@@ -29,7 +31,7 @@ body {
   }
 
   h1 {
-    font-family: 'Sligoil-Micro';
+    font-family: 'DM Serif Display';
     font-size: 4em;
     margin-top: 20px;
     max-width: 800px;
