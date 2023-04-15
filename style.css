@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+font-family: 'Inter', sans-serif;
+
+@font-face {
+font-family: 'Inter', sans-serif;
+}
+
 @font-face {
   font-family: 'FT88';
   src: url('FT88.ttf') format('truetype');
@@ -10,7 +19,7 @@
 
 body {
     background-color: rgb(234, 234, 234);
-    font-family: 'Sligoil-Micro';
+    font-family: 'Inter';
     color: black;
     text-align: left;
     margin-left:50px;
@@ -38,7 +47,6 @@ body {
 
   a {
     color: rgb(84, 84, 84);
-    margin-top: 50px;
   }
 
   .grey {
