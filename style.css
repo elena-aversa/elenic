@@ -1,4 +1,7 @@
-    @font-face {
+@media (max-width: 768px) {
+}
+
+@font-face {
       font-family: 'Monor';
       src: url('MonorRegular.otf') format('opentype');
     }
@@ -19,31 +22,29 @@
         font-family: 'Monor';
         color: rgb(0, 0, 0);
         text-align: left;
-        font-size: 1rem;
     }
 
     h1 {
-        font-size: 80px;
+        font-size: 4rem;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 2.4rem;
     }
 
     h3 {
-        font-size: 25px;
+        font-size: 2rem;
     }
 
     h4 {
-        font-size: 35px;
+        font-size: 4rem;
     }
 
     
-
-    /* CSS for the main container */
     .container {
         display: flex;
         height: 100%;
+        width: 100%;
     }
 
 
@@ -51,29 +52,25 @@
         border: 1px solid #000000;
         overflow-y: scroll;
         padding: 20px;
-        max-height: 80%;
+        max-height: 70%;
 
 }
 
 .right-container {
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
-    /* CSS for the right container that holds the first two boxes */
     .left-container {
         display: flex;
         flex-direction: column;
-
     }
 
-    /* CSS for each of the first two boxes */
     .top-box {
         padding: 20px;
         border: 1px solid #000000;
         overflow-y: scroll; 
-        max-height: 50%; /* Set a maximum height of 50% (for both boxes) */
+        max-height: 50%;
         flex: 2;
     }
 
