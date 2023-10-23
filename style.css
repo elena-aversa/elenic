@@ -1,11 +1,11 @@
     @font-face {
-      font-family: 'Meteor';
-      src: url('METEOR-Regular.otf') format('opentype');
+      font-family: 'Monor';
+      src: url('MonorRegular.otf') format('opentype');
     }
 
     @font-face {
         font-family: 'Meteor';
-        src: url('METEOR-Regular.otf') format('truetype');
+        src: url('MonorRegular.otf') format('truetype');
       }
     
       a {
@@ -13,13 +13,24 @@
       }
 
     html, body {
-        font-size: 1.4em;
         height: 100%;
         margin: 0;
         background-color: rgb(217, 255, 0);
-        font-family: 'Meteor';
+        font-family: 'Monor';
         color: rgb(0, 0, 0);
         text-align: left;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.15rem;
     }
 
     /* CSS for the main container */
@@ -33,7 +44,8 @@
         border: 1px solid #000000;
         overflow-y: scroll;
         padding: 20px;
-        max-height: 80%; 
+        max-height: 80%;
+
 }
 
 .right-container {
@@ -52,7 +64,8 @@
     /* CSS for each of the first two boxes */
     .top-box {
         padding: 20px;
-        border: 2px solid #000000;
+        border: 1px solid #000000;
         overflow-y: scroll; 
         max-height: 50%; /* Set a maximum height of 50% (for both boxes) */
+        flex: 2;
     }
