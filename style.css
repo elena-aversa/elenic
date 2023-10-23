@@ -1,7 +1,4 @@
-
-
-    
-    @font-face {
+@font-face {
       font-family: 'CirrusCumulus';
       src: url('CirrusCumulus.ttf') format('truetype');
     }
@@ -24,19 +21,15 @@
     
       h1 {
         font-family: 'CirrusCumulus';
-
         margin-top: 20px;
-        /*max-width: 800px;*/
       }
       
       p {
-    /*max-width: 800px;*/
       font-size: 2.0em;
       }
 
       a {
        color: rgb(255, 2, 179);
-
       }
     
       .line {
