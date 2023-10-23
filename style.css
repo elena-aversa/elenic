@@ -19,19 +19,26 @@
         font-family: 'Monor';
         color: rgb(0, 0, 0);
         text-align: left;
+        font-size: 1rem;
     }
 
     h1 {
-        font-size: 4rem;
-    }
-
-    h3 {
-        font-size: 2rem;
+        font-size: 80px;
     }
 
     h2 {
-        font-size: 2.15rem;
+        font-size: 40px;
     }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 35px;
+    }
+
+    
 
     /* CSS for the main container */
     .container {
@@ -68,4 +75,8 @@
         overflow-y: scroll; 
         max-height: 50%; /* Set a maximum height of 50% (for both boxes) */
         flex: 2;
+    }
+
+    .custom-p {
+        padding-left: 50px; 
     }
