@@ -85,6 +85,7 @@
     .suggestion-banner {
         display: none; /* Hide by default */
         position: fixed;
+        overflow-y: scroll;
         bottom: 0;
         left: 0;
         width: 100%;
