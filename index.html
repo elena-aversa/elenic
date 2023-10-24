@@ -6,15 +6,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Labrada:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>elenic</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 <body>
+  <div class="suggestion-banner">
+    Please, browse the website with a desktop device for the best experience! 👽
+    <span class="close-button" onclick="closeBanner()">X</span>
+</div>
     <div class="container">
         <div class="left-container">
             <div class="top-box">
-                <h1><p> Ciao! This is Elena Aversa.
+                <h1><p> 👽 Ciao! This is Elena Aversa.
                 Communication designer, PhD student in design, PhD students' representative.</p>
                 <p>
                 Doing stuff with <a href="https://densitydesign.org/">DensityDesign Lab</a></span>, <a href="https://dipartimentodesign.polimi.it/it/staff/show/441220">Politecnico di Milano</a>.</p> 
@@ -43,5 +47,22 @@
         </div>
     </div>
   </div>
+  <script>
+    // JavaScript function to close the suggestion banner
+    function closeBanner() {
+        var banner = document.querySelector('.suggestion-banner');
+        banner.style.display = 'none';
+    }
+
+    // Detect the user's screen width and display the banner for small screens
+    if (window.innerWidth <= 768) { // You can adjust the threshold width
+        var banner = document.querySelector('.suggestion-banner');
+        banner.style.display = 'block';
+    } else {
+        // Hide the banner on larger screens
+        var banner = document.querySelector('.suggestion-banner');
+        banner.style.display = 'none';
+    }
+</script>
 </body>
 </html>
