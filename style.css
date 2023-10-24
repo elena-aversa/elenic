@@ -7,14 +7,18 @@
     }
 
     @font-face {
-        font-family: 'Meteor';
-        src: url('MonorRegular.otf') format('truetype');
+        font-family: 'terminalgrotesque';
+        src: url('VG5000-Regular.otf') format('opentype');
       }
     
       a {
        color: rgb(255, 2, 179);
       }
 
+      .special-text {
+        color: rgb(0, 0, 255);
+    }
+    
     html, body {
         height: 100%;
         margin: 0;
@@ -79,7 +83,7 @@
     }
 
     suggestion-banner {
-        display: none; 
+        display: none; /* Hide by default */
         position: fixed;
         bottom: 0;
         left: 0;
@@ -88,9 +92,10 @@
         color: white;
         text-align: center;
         padding: 10px;
-        z-index: 1000; 
+        z-index: 1000; /* Ensure it appears above other content */
     }
 
+    /* CSS for a close button (optional) */
     .suggestion-banner .close-button {
         float: right;
         cursor: pointer;
