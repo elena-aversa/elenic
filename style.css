@@ -77,3 +77,22 @@
     .custom-p {
         padding-left: 50px; 
     }
+
+    suggestion-banner {
+        display: none; 
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(255, 2, 179);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        z-index: 1000; 
+    }
+
+    .suggestion-banner .close-button {
+        float: right;
+        cursor: pointer;
+        padding: 5px;
+    }
