@@ -11,9 +11,13 @@
         src: url('VG5000-Regular.otf') format('opentype');
       }
     
-      a {
+      .special-textA {
        color: rgb(255, 2, 179);
       }
+
+      /*.special-textB {
+        background-color: rgba(217, 255, 0, 0.19);
+       }*/
 
       .special-text {
         color: rgb(0, 0, 255);
@@ -23,6 +27,7 @@
         height: 100%;
         margin: 0;
         background-color: rgb(217, 255, 0);
+        /*background-color: aliceblue;*/
         font-family: 'Monor';
         color: rgb(0, 0, 0);
         text-align: left;
@@ -56,9 +61,25 @@
         border: 1px solid #000000;
         overflow-y: scroll;
         padding: 20px;
-        max-height: 70vh;
 
 }
+
+.maxRH {
+    max-height: 75vh;
+}
+
+.maxRB {
+    max-height: 25vh;
+}
+
+.maxLH {
+    max-height: 37.5vh;
+}
+
+.maxLB {
+    max-height: 62.5vh;
+}
+
 
 .right-container {
     display: flex;
@@ -80,7 +101,6 @@
         padding: 20px;
         border: 1px solid #000000;
         overflow-y: scroll; 
-        max-height: 50vh;
         flex: 2;
     }
 
